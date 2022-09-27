@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules ./node_modules/.bin/jest"
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest",
+    "test:sub": "node --experimental-vm-modules ./node_modules/.bin/jest --config=./jest.sub.config.js"
   },
   "keywords": [],
   "author": "",
